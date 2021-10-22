@@ -1,0 +1,11 @@
+# Simulation configuration file.
+# Each parameter takes a single value or list with two items [min, max]
+
+size: 128            # image size
+x: 64                # galaxy x-centroid
+y: 64                # galaxy y-centroid
+nsig : [1000, 10000] # number of signal photons
+nbkg : 10            # expected number of background photons
+reff : 5             # azimuthally averaged radius [a * sqrt(1 - ell)]
+ell  : 0.0           # ellipticity [ell = 1 - b/a]
+phi  : 0.0           # position angle
